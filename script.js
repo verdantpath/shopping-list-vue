@@ -36,7 +36,6 @@ var AddItemComponent = Vue.extend({
     methods: {
         addItem: function() {
             var text;
-
             text = this.newItem.trim();
             if (text) {
                 this.items.push({
